@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         CONTAINER_NAME = 'web3'
-        PORT = '90'
+        PORT = '92'
     }
 
     stages {
