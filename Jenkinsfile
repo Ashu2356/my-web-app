@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         CONTAINER_NAME = 'web2'
-        PORT = '80'
+        PORT = '92'
     }
     stages {
         stage('Clone Repo') {
