@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        CONTAINER_NAME = 'web2'
+        CONTAINER_NAME = 'web1'
         PORT = '90'
     }
     stages {
